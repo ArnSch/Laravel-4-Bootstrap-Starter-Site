@@ -1,6 +1,6 @@
 <?php
 
-class ExampleTest extends TestCase {
+class IndexTest extends TestCase {
 
 	/**
 	 * A basic functional test example.
@@ -13,7 +13,7 @@ class ExampleTest extends TestCase {
 
 		$this->assertTrue($this->client->getResponse()->isOk());
 
-		$this->assertCount(1, $crawler->filter('h1:contains("Hello World!")'));
+		$this->assertCount(1, $crawler->filter('title:contains("Laravel 4 Sample Site")'));
 	}
 
 }

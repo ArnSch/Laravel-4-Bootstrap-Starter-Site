@@ -3,6 +3,7 @@
 		"laravel/framework": "4.0.*",
 		"zizaco/confide": "dev-master",
 		"zizaco/entrust": "dev-master",
+        "zizaco/factory-muff": "dev-master",
 		"laravelbook/laravel4-powerpack": "dev-master",
 		"jasonlewis/basset": "*",
 		"jasonlewis/expressive-date": "1.*",
@@ -15,7 +16,8 @@
 			"app/models",
 			"app/presenters",
 			"app/database/migrations",
-			"app/tests/TestCase.php"
+			"app/tests/TestCase.php",
+            "app/tests/BaseControllerTestCase.php"
 		]
 	},
 	"minimum-stability": "dev"
